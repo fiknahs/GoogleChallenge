@@ -6,7 +6,7 @@ body, p {
 .navigation {
     display: flex;
     justify-content: flex-end;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 /* .navigation {
@@ -42,18 +42,24 @@ body, p {
 
 .mainpage {
     width: 50%;
-    margin: 40px auto;
+    margin: 38px auto;
     text-align: center;
 }
 
-.image {
+.logo {
     margin-bottom: 25px;
 }
-input {
+
+#search-bar {
     width: 80%;
     padding: 13px;
     border-radius: 50px;
     border: 1px solid lightgray;
+    outline: 0;
+}
+
+#search-bar:hover {
+    box-shadow: 0 0 5px 3px rgb(231, 231, 231);
 }
 
 .buttons {
@@ -62,8 +68,26 @@ input {
 
 .buttons button {
     border: none;
-    padding: 10px;
+    border-radius: 3px;
+    padding: 10px 15px;
     margin: 0 5px;
+    cursor: pointer;
+    background-color: rgb(247, 247, 247);
+}
+
+.lang-links {
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.lang-links a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.lang-links a:hover {
+    text-decoration: underline;
 }
 
 body, input, button {
@@ -73,7 +97,7 @@ body, input, button {
 }
 
 footer {
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(243, 243, 243);
     position: fixed;
     bottom: 0;
     width: 100%;
