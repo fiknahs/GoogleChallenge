@@ -136,3 +136,9 @@ footer {
 .right a {
     margin-left: 20px;
 }
+
+@media screen and (max-width: 800px) {
+    .mainpage {
+        width: 100%;
+    }
+}
