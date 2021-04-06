@@ -75,6 +75,10 @@ body, p {
     background-color: rgb(247, 247, 247);
 }
 
+.buttons button:hover {
+    box-shadow: 0 0 2px 2px rgb(231, 231, 231);
+}
+
 .lang-links {
     margin-top: 30px;
     font-size: 13px;
@@ -104,14 +108,14 @@ footer {
 }
 
 .footer-upper {
-    padding: 18px 30px;
+    padding: 16px 30px;
     border-bottom: 1px solid #dadce0;
     font-size: 15px;
     color: rgba(0, 0, 0, .54);
 }
 
 .footer-lower {
-    padding: 18px 30px;
+    padding: 16px 30px;
     display: flex;
     justify-content: space-between;
 }
