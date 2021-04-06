@@ -5,15 +5,31 @@ body, p {
 
 .navigation {
     display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+/* .navigation {
+    display: flex;
     justify-content: space-around;
     width: 15%;
     margin-left: auto;
     margin-top: 20px;
-}
+} */
 
 .navigation a {
     color: black;
     text-decoration: none;
+    margin-right: 20px; /*added code */
+}
+
+/* added code for profile image */
+
+.navigation a.profile {
+    width: 20px;
+    height: 20px;
+    background-color: slateblue;
+    border-radius: 10px;
 }
 
 .navigation a:hover {
